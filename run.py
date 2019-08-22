@@ -1,6 +1,8 @@
 import random
 from aa import aa
 
+random.seed(2019)
+
 lys = aa('Lysine','lys', 'K','pos')
 arg = aa('Arginine','arg', 'R', 'pos')
 his = aa('Histidine', 'his', 'H', 'pos')

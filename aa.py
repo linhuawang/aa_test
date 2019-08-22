@@ -18,6 +18,6 @@ class aa:
 				print "Wrong one letter!"
 			if (self.polarity != polarity.lower()):
 				print "Wrong polarity!"
-			print "### For %s\n\tthree letter: %s\n### \tone letter: %s\n### \tpolarity: %s\nYou have a good day!\n" \
+			print "### For %s\n###\t three letter: %s\n###\t one letter: %s\n### \tpolarity: %s\nYou have a good day!\n" \
 				%(self.name,self.three_letter,self.one_letter,self.polarity)
 			return False
